@@ -18,6 +18,10 @@ from easy_door_factory import EasyDoorFactory
 from difficiult_door_factory import DifficultDoorFactory
 
 def main():
+    """
+    Main game loop for the Escape Room game. Prompts user for difficulty level,
+    creates doors based on difficulty, and processes door interactions until 3 doors are unlocked.
+    """
     print("Welcome to the Escape Room. You must unlock 3 doors to escape...")
     difficulty = input("Enter Difficulty (1. Easy 2. Hard): ")
     numbers_of_doors_attempted = 0
